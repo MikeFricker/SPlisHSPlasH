@@ -1,3 +1,6 @@
+2.16.1
+	- bugfix in Projective Fluids solver (thanks to Lukas Hof)
+
 2.16.0
 	- added implementation of turbulence method: Liu et al., "Turbulent Details Simulation for SPH Fluids via Vorticity Refinement", Computer Graphics Forum, 2021
 	- Scene files now have a namespace for each pressure and non-pressure solver. This means existing scene files have to be adapted (see doc/file_format.md).
