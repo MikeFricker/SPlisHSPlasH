@@ -23,14 +23,14 @@ SPlisHSPlasH implements the methods of the following publications:
 * Nadir Akinci, Markus Ihmsen, Gizem Akinci, Barbara Solenthaler, and Matthias Teschner, "Versatile rigid-fluid coupling for incompressible SPH", ACM Transactions on Graphics 31(4), 2012
 * Markus Becker and Matthias Teschner. Weakly compressible SPH for free surface flows. In Proceedings of ACM SIGGRAPH/Eurographics Symposium on Computer Animation, 2007. Eurographics Association.
 * M. Becker, M. Ihmsen, and M. Teschner. Corotated SPH for deformable solids. Proceedings of Eurographics Conference on Natural Phenomena, 2009
-* Jan Bender and Dan Koschier. Divergence-free smoothed particle hydrodynamics. In Proceedings of ACM SIGGRAPH / Eurographics Symposium on Computer Animation, 2015. ACM.
-* Jan Bender and Dan Koschier. Divergence-free SPH for incompressible and viscous fluids. IEEE Transactions on Visualization and Computer Graphics, 2017.
-* Jan Bender, Dan Koschier, Tassilo Kugelstadt and Marcel Weiler. A Micropolar Material Model for Turbulent SPH Fluids. In Proceedings of ACM SIGGRAPH / EUROGRAPHICS Symposium on Computer Animation, 2017
-* Jan Bender, Dan Koschier, Tassilo Kugelstadt and Marcel Weiler. Turbulent Micropolar SPH Fluids with Foam. IEEE Transactions on Visualization and Computer Graphics 25(6), 2019
-* Jan Bender, Tassilo Kugelstadt, Marcel Weiler, Dan Koschier, "Volume Maps: An Implicit Boundary Representation for SPH", ACM SIGGRAPH Conference on Motion, Interaction and Games, 2019
-* Jan Bender, Tassilo Kugelstadt, Marcel Weiler, Dan Koschier, "Implicit  Frictional Boundary Handling for SPH", IEEE Transactions on  Visualization and Computer Graphics, 2020
-* Jan Bender, Matthias Müller, Miguel A. Otaduy, Matthias Teschner, and Miles Macklin. A survey on position-based simulation methods in computer graphics. Computer Graphics Forum, 33(6):228–251, 2014.
-* Jan Bender, Matthias Müller, and Miles Macklin. Position-based simulation methods in computer graphics. In EUROGRAPHICS 2015 Tutorials. Eurographics Association, 2015.
+* Jan Bender and Dan Koschier. Divergence-free smoothed particle hydrodynamics. In Proceedings of ACM SIGGRAPH / Eurographics Symposium on Computer Animation, 2015. ACM. [https://doi.org/10.1145/2786784.2786796](https://doi.org/10.1145/2786784.2786796)
+* Jan Bender and Dan Koschier. Divergence-free SPH for incompressible and viscous fluids. IEEE Transactions on Visualization and Computer Graphics, 2017. [https://doi.org/10.1109/TVCG.2016.2578335](https://doi.org/10.1109/TVCG.2016.2578335)
+* Jan Bender, Dan Koschier, Tassilo Kugelstadt and Marcel Weiler. A Micropolar Material Model for Turbulent SPH Fluids. In Proceedings of ACM SIGGRAPH / EUROGRAPHICS Symposium on Computer Animation, 2017. [https://doi.org/10.1145/3099564.3099578](https://doi.org/10.1145/3099564.3099578)
+* Jan Bender, Dan Koschier, Tassilo Kugelstadt and Marcel Weiler. Turbulent Micropolar SPH Fluids with Foam. IEEE Transactions on Visualization and Computer Graphics 25(6), 2019. [https://doi.org/10.1109/TVCG.2018.2832080](https://doi.org/10.1109/TVCG.2018.2832080)
+* Jan Bender, Tassilo Kugelstadt, Marcel Weiler, Dan Koschier, "Volume Maps: An Implicit Boundary Representation for SPH", ACM SIGGRAPH Conference on Motion, Interaction and Games, 2019. [https://doi.org/10.1145/3359566.3360077](https://doi.org/10.1145/3359566.3360077)
+* Jan Bender, Tassilo Kugelstadt, Marcel Weiler, Dan Koschier, "Implicit  Frictional Boundary Handling for SPH", IEEE Transactions on  Visualization and Computer Graphics, 2020. [https://doi.org/10.1109/TVCG.2020.3004245](https://doi.org/10.1109/TVCG.2020.3004245)
+* Jan Bender, Matthias Müller, Miguel A. Otaduy, Matthias Teschner, and Miles Macklin. A survey on position-based simulation methods in computer graphics. Computer Graphics Forum, 33(6):228–251, 2014. [https://doi.org/10.1111/cgf.12346](https://doi.org/10.1111/cgf.12346)
+* Jan Bender, Matthias Müller, and Miles Macklin. Position-based simulation methods in computer graphics. In EUROGRAPHICS 2015 Tutorials. Eurographics Association, 2015. [https://doi.org/10.2312/egt.20151045](https://doi.org/10.2312/egt.20151045)
 * Christoph Gissler, Stefan Band, Andreas Peer, Markus Ihmsen and Matthias Teschner. Approximate Air-Fluid Interactions for SPH. In Proceedings of Virtual Reality Interactions and Physical Simulations, 2017
 * C. Gissler, A. Henne, S. Band, A. Peer and M. Teschner. An Implicit Compressible SPH Solver for Snow Simulation, ACM Transactions on Graphics 39(4), 2020. 
 * Xiaowei He, Huamin Wang, Fengjun Zhang, Hongan Wang, Guoping Wang, and Kun Zhou. Robust simulation of sparsely sampled thin features in SPH-based free surface flows. ACM Trans. Graph., 34(1):7:1–7:9, December 2014. 
@@ -38,8 +38,8 @@ SPlisHSPlasH implements the methods of the following publications:
 * Markus Ihmsen, Jens Cornelis, Barbara Solenthaler, Christopher Horvath, and Matthias Teschner. Implicit incompressible SPH. IEEE Transactions on Visualization and Computer Graphics, 20(3):426–435, March 2014.
 * Markus Ihmsen, Jens Orthmann, Barbara Solenthaler, Andreas Kolb, and Matthias Teschner. SPH Fluids in Computer Graphics. In Eurographics 2014 - State of the Art Reports. The Eurographics Association, 2014. 
 * M. Jiang, Y. Zhou, R. Wang, R. Southern, J. J. Zhang. Blue noise sampling using an SPH-based method. ACM Transactions on Graphics, 2015
-* Dan Koschier and Jan Bender, "Density Maps for Improved SPH Boundary Handling", In Proceedings of ACM SIGGRAPH / EUROGRAPHICS Symposium on Computer Animation (SCA), 2017
-* Tassilo Kugelstadt, Jan Bender, José Antonio Fernández-Fernández, Stefan Rhys  Jeske, Fabian Löschner, and Andreas Longva. Fast Corotated Elastic SPH  Solids with Implicit Zero-Energy Mode Control. Proceedings of the ACM  on Computer Graphics and Interactive Techniques, 2021
+* Dan Koschier and Jan Bender, "Density Maps for Improved SPH Boundary Handling", In Proceedings of ACM SIGGRAPH / EUROGRAPHICS Symposium on Computer Animation (SCA), 2017. [https://doi.org/10.1145/3099564.3099565](https://doi.org/10.1145/3099564.3099565)
+* Tassilo Kugelstadt, Jan Bender, José Antonio Fernández-Fernández, Stefan Rhys  Jeske, Fabian Löschner, and Andreas Longva. Fast Corotated Elastic SPH  Solids with Implicit Zero-Energy Mode Control. Proceedings of the ACM  on Computer Graphics and Interactive Techniques, 2021. [https://doi.org/10.1145/3480142](https://doi.org/10.1145/3480142)
 * Miles Macklin and Matthias Müller. Position based fluids. ACM Trans. Graph., 32(4):104:1–104:12, July 2013.
 * Miles Macklin, Matthias Müller, Nuttapong Chentanez and Tae-Yong Kim. Unified Particle Physics for Real-Time Applications. ACM Trans. Graph., 33(4), 2014
 * J. J. Monaghan. Smoothed Particle Hydrodynamics. Annual Review of Astronomy and Astrophysics, 1992, 30, 543-574. 
@@ -49,14 +49,13 @@ SPlisHSPlasH implements the methods of the following publications:
 * B. Solenthaler and R. Pajarola. Density Contrast SPH Interfaces. In Proceedings of ACM SIGGRAPH/Eurographics Symposium on Computer Animation, 2008.
 * B. Solenthaler and R. Pajarola. Predictive-corrective incompressible SPH. ACM Trans. Graph., 28(3):40:1–40:6, July 2009. 
 * Tetsuya Takahashi, Yoshinori Dobashi, Issei Fujishiro, Tomoyuki Nishita, and Ming C. Lin. Implicit Formulation for SPH-based Viscous Fluids. Computer Graphics Forum, 34, 2015.
-* Marcel Weiler, Dan Koschier and Jan Bender. Projective Fluids. Proceedings of the 9th International Conference on Motion in Games, ACM, 2016, 79-84
-* Marcel Weiler, Dan Koschier, Magnus Brand and Jan Bender. A Physically Consistent Implicit Viscosity Solver for SPH Fluids. Computer Graphics Forum (Eurographics), 37(2), 2018
-* Lukas Westhofen, Stefan Rhys Jeske, Jan Bender. A comparison of linear consistent correction methods for first-order SPH derivatives. Proceedings of the ACM on Computer Graphics and Interactive Techniques (SCA), 2023
+* Marcel Weiler, Dan Koschier and Jan Bender. Projective Fluids. Proceedings of the 9th International Conference on Motion in Games, ACM, 2016, 79-84. [https://doi.org/10.1145/2994258.2994282](https://doi.org/10.1145/2994258.2994282)
+* Marcel Weiler, Dan Koschier, Magnus Brand and Jan Bender. A Physically Consistent Implicit Viscosity Solver for SPH Fluids. Computer Graphics Forum (Eurographics), 37(2), 2018. [https://doi.org/10.1111/cgf.13349](https://doi.org/10.1111/cgf.13349)
+* Lukas Westhofen, Stefan Rhys Jeske, Jan Bender. A comparison of linear consistent correction methods for first-order SPH derivatives. Proceedings of the ACM on Computer Graphics and Interactive Techniques (SCA), 2023. [https://doi.org/10.1145/3606933](https://doi.org/10.1145/3606933)
 * F. Zorilla, M. Ritter, J. Sappl, W. Rauch, M. Harders. Accelerating  Surface Tension Calculation in SPH via Particle Classification and Monte Carlo Integration. Computers 9, 23, 2020.
-* Jeske, Stefan Rhys, Lukas Westhofen, Fabian Löschner, José Antonio Fernández-Fernández, and Jan Bender. Implicit Surface Tension for SPH Fluid Simulation. ACM Transactions on Graphics, 2023. 
-  [https://doi.org/10.1145/3631936](https://doi.org/10.1145/3631936)
-* Jan Bender, Lukas Westhofen, Stefan Rhys Jeske, "Consistent SPH Rigid-Fluid Coupling", Vision, Modeling and Visualization, 2023. 
-  [https://doi.org/10.2312/vmv.20231244](https://doi.org/10.2312/vmv.20231244)
+* Jeske, Stefan Rhys, Lukas Westhofen, Fabian Löschner, José Antonio Fernández-Fernández, and Jan Bender. Implicit Surface Tension for SPH Fluid Simulation. ACM Transactions on Graphics, 2023. [https://doi.org/10.1145/3631936](https://doi.org/10.1145/3631936)
+* Jan Bender, Lukas Westhofen, Stefan Rhys Jeske, "Consistent SPH Rigid-Fluid Coupling", Vision, Modeling and Visualization, 2023. [https://doi.org/10.2312/vmv.20231244](https://doi.org/10.2312/vmv.20231244)
+* Min Hyung Kee, Kiwon Um, HyunMo Kang, JungHyun Han, "An Optimization-based SPH Solver for Simulation of Hyperelastic Solids", Computer Graphics Forum, 42: 225-233, 2023. [https://doi.org/10.1111/cgf.14756](https://doi.org/10.1111/cgf.14756)
 
 ## Other research projects using SPlisHSPlasH
 
@@ -89,4 +88,11 @@ SPlisHSPlasH implements the methods of the following publications:
 * Xiaowei He, Huamin Wang, Guoping Wang, Hongan Wang, Enhua Wu. A Variational Staggered Particle Framework for Incompressible Free-Surface Flows. arXiv 2020<br>[https://doi.org/10.48550/arXiv.2001.09421](https://doi.org/10.48550/arXiv.2001.09421)
 * Kelsey Allen, Tatiana Lopez Guevara, Kim Stachenfeld, Alvaro Sanchez-Gonzalez, Jessica Hamrick, Tobias Pfaff. Physical Design using Differentiable Learned Simulators. NeurIPS 2022<br>[https://doi.org/10.48550/arXiv.2202.00728](https://doi.org/10.48550/arXiv.2202.00728)
 * I. S. Starodubtsev, Y. V. Starodubtseva, I. A. Tsepelev, A. T. Ismail-Zadeh. Three-Dimensional Numerical Modeling of Lava Dynamics Using the Smoothed Particle Hydrodynamics Method. Journal of Volcanology and Seismology 17, 2023<br>[https://doi.org/10.1134/S0742046323700185](https://doi.org/10.1134/S0742046323700185)
-
+* Gilson Antonio Giraldi, Liliane Rodrigues de Almeida, Antonio Lopes Apolinário Jr., Leandro Tavares da Silva. Deep Learning for Fluid Simulation and Animation. Springer 2024<br>[https://www.springerprofessional.de/en/deep-learning-for-fluid-simulation-and-animation/26354246](https://www.springerprofessional.de/en/deep-learning-for-fluid-simulation-and-animation/26354246)
+* Xiangyang Zhou, Sinuo Liu, Haokai Zeng, Xiaokun Wang, Xiaojuan Ban. Efficient and high precision target-driven fluid simulation based on spatial geometry features. Computer Animation and Virtual Worlds 35, 1, 2024<br>[https://doi.org/10.1002/cav.2202](https://doi.org/10.1002/cav.2202)
+* Omer Rochman Sharabi, Gilles Louppe. Trick or treat? Evaluating stability strategies in graph network-based simulators. NeurIPS 2023 <br>[https://hdl.handle.net/2268/309361](https://hdl.handle.net/2268/309361)
+* Yuting Zhang, Mario Belledonne, Tristan Yates, Ilker Yildirim. Where does the flow go? Humans automatically predict liquid pathing with coarse-grained simulation. Proceedings of the Annual Meeting of the Cognitive Science Society 45, 2023<br>[https://escholarship.org/uc/item/7np8s0gh](https://escholarship.org/uc/item/7np8s0gh)
+* Kensuke Mitsuzawa, Margherita Grossi, Stefano Bortoli, Motonobu Kanagawa. Variable Selection for Comparing High-dimensional Time-Series Data. arXiv 2024<br>[https://arxiv.org/abs/2412.06870](https://arxiv.org/abs/2412.06870)
+* Zhehao Li, Qingyu Xu, Xiaohan Ye, Bo Ren, Ligang Liu. DiffFR: Differentiable SPH-Based Fluid-Rigid Coupling for Rigid Body Control. ACM Transactions on Graphics 42, 6, 2023<br>[https://doi.org/10.1145/3618318](https://doi.org/10.1145/3618318)
+* Daria Nogina, Silvia Sellán. Tube Maps: Fast SPH Boundary Handling in Tubular Coordinates. SIGGRAPH 2026 Conference Papers, 2026<br>
+[https://gatc.cs.columbia.edu/projects/tubemaps.html](https://gatc.cs.columbia.edu/projects/tubemaps.html)

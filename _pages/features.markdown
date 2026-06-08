@@ -62,10 +62,10 @@ The SPlisHSPlasH library implements the following pressure solvers:
 
 The SPlisHSPlasH library implements the following boundary handling methods:
 
-* Nadir Akinci, Markus Ihmsen, Gizem Akinci, Barbara Solenthaler, and Matthias Teschner, "Versatile rigid-fluid coupling for incompressible SPH", ACM Transactions on Graphics 31(4), 2012
-* Dan Koschier and Jan Bender, "Density Maps for Improved SPH Boundary Handling", In Proceedings of ACM SIGGRAPH / EUROGRAPHICS Symposium on Computer Animation (SCA), 2017
-* Jan Bender, Tassilo Kugelstadt, Marcel Weiler, Dan Koschier, "Volume Maps: An Implicit Boundary Representation for SPH", ACM SIGGRAPH Conference on Motion, Interaction and Games, 2019
-* Jan Bender, Lukas Westhofen, Stefan Rhys Jeske, "Consistent SPH Rigid-Fluid Coupling", Vision, Modeling and Visualization, 2023. https://doi.org/10.2312/vmv.20231244
+* Nadir Akinci, Markus Ihmsen, Gizem Akinci, Barbara Solenthaler, and Matthias Teschner, "Versatile rigid-fluid coupling for incompressible SPH", ACM Transactions on Graphics 31(4), 2012. [https://doi.org/10.1145/2185520.2185558](https://doi.org/10.1145/2185520.2185558)
+* Dan Koschier and Jan Bender, "Density Maps for Improved SPH Boundary Handling", In Proceedings of ACM SIGGRAPH / EUROGRAPHICS Symposium on Computer Animation (SCA), 2017. [https://doi.org/10.1145/3099564.3099565](https://doi.org/10.1145/3099564.3099565)
+* Jan Bender, Tassilo Kugelstadt, Marcel Weiler, Dan Koschier, "Volume Maps: An Implicit Boundary Representation for SPH", ACM SIGGRAPH Conference on Motion, Interaction and Games, 2019. [https://doi.org/10.1145/3359566.3360077](https://doi.org/10.1145/3359566.3360077)
+* Jan Bender, Lukas Westhofen, Stefan Rhys Jeske, "Consistent SPH Rigid-Fluid Coupling", Vision, Modeling and Visualization, 2023. [https://doi.org/10.2312/vmv.20231244](https://doi.org/10.2312/vmv.20231244)
 
 ## Viscosity
 
@@ -75,11 +75,11 @@ The SPlisHSPlasH library implements explicit viscosity methods:
 
 and the implicit methods of the following publications:  
 
-* Jan Bender and Dan Koschier, "Divergence-free SPH for incompressible and viscous fluids", IEEE Transactions on Visualization and Computer Graphics, 2017
+* Jan Bender and Dan Koschier, "Divergence-free SPH for incompressible and viscous fluids", IEEE Transactions on Visualization and Computer Graphics, 2017. [https://doi.org/10.1109/TVCG.2016.2578335](https://doi.org/10.1109/TVCG.2016.2578335)
 * Andreas Peer, Markus Ihmsen, Jens Cornelis, and Matthias Teschner, "An Implicit Viscosity Formulation for SPH Fluids", ACM Transactions on Graphics, 34(4), 2015
 * Andreas Peer and Matthias Teschner. Prescribed Velocity Gradients for Highly Viscous SPH Fluids with Vorticity Diffusion. IEEE Transactions on Visualization and Computer Graphics, 2016
 * An improved version of: Tetsuya Takahashi, Yoshinori Dobashi, Issei Fujishiro, Tomoyuki Nishita, and Ming C. Lin. Implicit Formulation for SPH-based Viscous Fluids. Computer Graphics Forum, 34, 2015.
-* Marcel Weiler, Dan Koschier, Magnus Brand and Jan Bender. A Physically Consistent Implicit Viscosity Solver for SPH Fluids. Computer Graphics Forum (Eurographics), 37(2), 2018
+* Marcel Weiler, Dan Koschier, Magnus Brand and Jan Bender. A Physically Consistent Implicit Viscosity Solver for SPH Fluids. Computer Graphics Forum (Eurographics), 37(2), 2018. [https://doi.org/10.1111/cgf.13349](https://doi.org/10.1111/cgf.13349)
 
 ## Surface Tension
 
@@ -89,14 +89,15 @@ The SPlisHSPlasH library implements the surface tension methods of the following
 * Nadir Akinci, Gizem Akinci, and Matthias Teschner. Versatile surface tension and adhesion for SPH fluids. ACM Trans. Graph., 32(6):182:1–182:8, 2013. 
 * Xiaowei He, Huamin Wang, Fengjun Zhang, Hongan Wang, Guoping Wang, and Kun Zhou, "Robust simulation of sparsely sampled thin features in SPH-based free surface flows", ACM Transactions on Graphics, 34(1), 2014.
 * F. Zorilla, M. Ritter, J. Sappl, W. Rauch, M. Harders, "Accelerating  Surface Tension Calculation in SPH via Particle Classification and Monte Carlo Integration", Computers 9, 23, 2020.
-* Jeske, Stefan Rhys, Lukas Westhofen, Fabian Löschner, José Antonio Fernández-Fernández, and Jan Bender. "Implicit Surface Tension for SPH Fluid Simulation." ACM Transactions on Graphics, 2023. https://doi.org/10.1145/3631936.
+* Jeske, Stefan Rhys, Lukas Westhofen, Fabian Löschner, José Antonio Fernández-Fernández, and Jan Bender. "Implicit Surface Tension for SPH Fluid Simulation." ACM Transactions on Graphics, 2023. [https://doi.org/10.1145/3631936](https://doi.org/10.1145/3631936)
 
 ## Vorticity
 
 The SPlisHSPlasH library implements the vorticity methods of the following publications: 
 
-* Jan Bender, Dan Koschier, Tassilo Kugelstadt and Marcel Weiler. A Micropolar Material Model for Turbulent SPH Fluids. In Proceedings of ACM SIGGRAPH / EUROGRAPHICS Symposium on Computer Animation, 2017
+* Jan Bender, Dan Koschier, Tassilo Kugelstadt and Marcel Weiler. A Micropolar Material Model for Turbulent SPH Fluids. In Proceedings of ACM SIGGRAPH / EUROGRAPHICS Symposium on Computer Animation, 2017. [https://doi.org/10.1145/3099564.3099578](https://doi.org/10.1145/3099564.3099578)
 * Miles Macklin and Matthias Müller. Position based fluids. ACM Trans. Graph., 32(4):104:1–104:12, July 2013.
+* Sinuo Liu, Xiaokun Wang, Xiaojuan Ban, Yanrui Xu, Jing Zhou, Jiří Kosinka, Alexandru C. Telea. Turbulent Details Simulation for SPH Fluids via Vorticity Refinement. Computer Graphics Forum, 40: 54-67, 2021. [https://doi.org/10.1111/cgf.14095](https://doi.org/10.1111/cgf.14095)
 
 ## Drag Forces
 
@@ -109,8 +110,8 @@ The SPlisHSPlasH library implements the drag force computation of the following 
 
 * M. Becker, M. Ihmsen, and M. Teschner. Corotated SPH for deformable solids. Proceedings of Eurographics Conference on Natural Phenomena, 2009
 * A. Peer, C. Gissler, S. Band, and M. Teschner. An Implicit SPH Formulation for Incompressible Linearly Elastic Solids. Computer Graphics Forum, 2017
-* Tassilo Kugelstadt, Jan Bender, José Antonio Fernández-Fernández, Stefan Rhys  Jeske, Fabian Löschner, and Andreas Longva. Fast Corotated Elastic SPH  Solids with Implicit Zero-Energy Mode Control. Proceedings of the ACM  on Computer Graphics and Interactive Techniques, 2021
-
+* Tassilo Kugelstadt, Jan Bender, José Antonio Fernández-Fernández, Stefan Rhys  Jeske, Fabian Löschner, and Andreas Longva. Fast Corotated Elastic SPH  Solids with Implicit Zero-Energy Mode Control. Proceedings of the ACM  on Computer Graphics and Interactive Techniques, 2021. [https://doi.org/10.1145/3480142](https://doi.org/10.1145/3480142)
+* Min Hyung Kee, Kiwon Um, HyunMo Kang, JungHyun Han, "An Optimization-based SPH Solver for Simulation of Hyperelastic Solids", Computer Graphics Forum, 42: 225-233, 2023. [https://doi.org/10.1111/cgf.14756](https://doi.org/10.1111/cgf.14756)
 
 ## Multi-Phase Fluid Simulation
 
@@ -123,4 +124,4 @@ The SPlisHSPlasH library implements the following publication to realize multi-p
 The SPlisHSPlasH library implements the volume sampling techniques of following publications: 
 
  * M. Jiang, Y. Zhou, R. Wang, R. Southern, J. J. Zhang. Blue noise sampling using an SPH-based method. ACM Transactions on Graphics, 2015
- * Tassilo Kugelstadt, Jan Bender, José Antonio Fernández-Fernández, Stefan Rhys  Jeske, Fabian Löschner, and Andreas Longva. Fast Corotated Elastic SPH  Solids with Implicit Zero-Energy Mode Control. Proceedings of the ACM  on Computer Graphics and Interactive Techniques, 2021
+ * Tassilo Kugelstadt, Jan Bender, José Antonio Fernández-Fernández, Stefan Rhys  Jeske, Fabian Löschner, and Andreas Longva. Fast Corotated Elastic SPH  Solids with Implicit Zero-Energy Mode Control. Proceedings of the ACM  on Computer Graphics and Interactive Techniques, 2021. [https://doi.org/10.1145/3480142](https://doi.org/10.1145/3480142)
