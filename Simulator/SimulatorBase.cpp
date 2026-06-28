@@ -847,7 +847,9 @@ void SimulatorBase::reset()
 #endif
 
 	m_boundarySimulator->reset();
+#ifndef GPU_NEIGHBORHOOD_SEARCH
 	Simulation::getCurrent()->getNeighborhoodSearch()->reset();
+#endif
 	if (m_gui)
 		m_gui->reset();
 

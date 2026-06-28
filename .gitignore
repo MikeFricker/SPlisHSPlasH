@@ -1,0 +1,6 @@
+/bin
+/build-cpu
+/build-gpu17
+/data/Scenes/Cache
+/Cache
+Utilities/Version.h
