@@ -218,8 +218,10 @@ namespace Utilities
 		static std::string getProgramPath()
 		{
 			char buffer[1000];
-#ifdef WIN32	
+#if defined(WIN32) && !defined(UNICODE)
 			GetModuleFileName(NULL, buffer, 1000);
+#elif defined(WIN32)
+			buffer[0] = '\0';
 #elif defined(__APPLE__)
 			uint32_t bufferSize = sizeof(buffer);
 			_NSGetExecutablePath(buffer, &bufferSize);
@@ -275,7 +277,7 @@ namespace Utilities
 
 		static bool getFilesInDirectory(const std::string& path, std::vector<std::string> &res)
 		{
-#ifdef WIN32
+#if defined(WIN32) && !defined(UNICODE)
 			std::string p = path + "\\*";
 			WIN32_FIND_DATA data;
 			HANDLE hFind = FindFirstFile(p.c_str(), &data);
@@ -290,6 +292,8 @@ namespace Utilities
 				return true;
 			}
 			return false;
+#elif defined(WIN32)
+			return false; // UNICODE mode not supported; use UE5 file APIs instead
 #else
 			DIR* dir = opendir(path.c_str());
 			if (dir != NULL)
@@ -361,6 +365,7 @@ namespace Utilities
 		}
 
 #ifdef WIN32
+		#ifndef UNICODE  // ANSI Win32 API -- not compatible with UE5 UNICODE builds
 		/** Open windows file dialog.\n
 		* dialogType 0 = Open file dialog\n
 		* dialogType 1 = Save file dialog\n
@@ -399,8 +404,12 @@ namespace Utilities
 			}
 			return "";
 		}
+		#endif // UNICODE
 #endif
 	};
 }
 
 #endif
+
+
+
